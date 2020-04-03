@@ -1,4 +1,4 @@
-from player import Player
+from players.player import Player
 from dealer import deal
 
 class Sage:
@@ -16,12 +16,10 @@ class Sage:
 
     def playRound(self, player: Player):
         cards, card3 = deal()
-        
+
         bet = 1 + player.play(cards[0], cards[1])
 
         if (cards[0] < card3 and card3 < cards[1]):
             player.changeScore(bet)
         else:
             player.changeScore(-bet)
-
-    
