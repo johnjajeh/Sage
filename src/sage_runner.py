@@ -2,7 +2,7 @@ from sage_game import Sage
 from player_factory import PlayerFactory
 from reporter import Reporter
 
-ITERATIONS = 1000
+ITERATIONS = 10000
 
 factory = PlayerFactory()
 reporter = Reporter()
