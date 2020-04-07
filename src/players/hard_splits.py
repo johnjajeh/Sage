@@ -7,7 +7,7 @@ class PlayerHardSplits(Player):
         if difference < 4:
             return 0
 
-        if difference == 4 || difference == 5:
+        if difference == 4 or difference == 5:
             return 5
 
         return 9
