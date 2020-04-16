@@ -6,7 +6,7 @@
 
 To run the game simulations, cd into src and run:
 
-'''
+'''console
 python3 sagerunner.py
 
 '''
