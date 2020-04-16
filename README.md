@@ -6,10 +6,9 @@
 
 To run the game simulations, cd into src and run:
 
-'''console
+```shell
 python3 sagerunner.py
-
-'''
+```
 
 Follow the on screen instructions. Pick a strategy for each player in the game.
 
